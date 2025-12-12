@@ -30,11 +30,15 @@ pip install -r requirements.txt
 python <filename>.py
 ```
 
-### Go
+### Go (Gin)
 
 ```bash
+go mod init myapp
+go get -u github.com/gin-gonic/gin
 go run main.go
 ```
+
+http://localhost:8080 でサーバーが起動します。
 
 ## 開発環境
 
